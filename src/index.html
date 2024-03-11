@@ -8,16 +8,95 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+
     </head>
 
     <body>
         <header class="hero">
             <div class="container">
                 <p class="hero__text">
-                    Contagem regressiva para meu aniversario 10m
+                    Contagem regressiva para meu aniversario <span id="contagem"></span>
                 </p>
+                <div class="infos-bar">
+                    <ul class="infos-bar__infos">
+                        <li class="infos-bar__infos__item">
+                            <b>Localização</b>
+                            Allianz Parque - Barra Funda - São Paulo
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Preço</b>
+                            A partir de R$ 120,20
+                        </li>
+                        <li class="infos-bar__infos__item">
+                            <b>Data</b>
+                            14/08/2024 ás 19hrs
+                        </li>
+                    </ul>
+                    <a href="" class="button button--primary">
+                        Garanta sua vaga
+                    </a>
+                </div>
             </div>
         </header>
+
+        <section class="event event--sobre">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Sobre Mim
+                    </h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi soluta beatae error adipisci tempora autem tenetur, esse pariatur sapiente, eius tempore impedit cum. Veniam distinctio consequatur, dignissimos voluptatem maxime molestias!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aliquid accusamus iste, quia quae praesentium facilis consequatur mollitia suscipit amet totam minima delectus, quo aut molestias blanditiis, temporibus nihil cum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore veritatis aut illo architecto aliquid ab error ipsam sapiente vitae natus amet fugit id sed non, debitis, saepe laborum inventore?</p>
+                </div>
+                <img class="event__image" src="./imagens/f.png" alt="bandeira">
+            </div>
+        </section>
+
+        <section class="event event--familia event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Familia
+                    </h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi soluta beatae error adipisci tempora autem tenetur, esse pariatur sapiente, eius tempore impedit cum. Veniam distinctio consequatur, dignissimos voluptatem maxime molestias!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aliquid accusamus iste, quia quae praesentium facilis consequatur mollitia suscipit amet totam minima delectus, quo aut molestias blanditiis, temporibus nihil cum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore veritatis aut illo architecto aliquid ab error ipsam sapiente vitae natus amet fugit id sed non, debitis, saepe laborum inventore?</p>
+                </div>
+                <img class="event__image" src="./imagens/b.png" alt="bandeira">
+            </div>
+        </section>
+
+            <section class="event event--formacao">
+                <div class="container" data-aos="fade-right">
+                    <div class="event__details">
+                        <h2 class="event__details__title">
+                            Formação
+                        </h2>
+                        <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi soluta beatae error adipisci tempora autem tenetur, esse pariatur sapiente, eius tempore impedit cum. Veniam distinctio consequatur, dignissimos voluptatem maxime molestias!</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aliquid accusamus iste, quia quae praesentium facilis consequatur mollitia suscipit amet totam minima delectus, quo aut molestias blanditiis, temporibus nihil cum.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore veritatis aut illo architecto aliquid ab error ipsam sapiente vitae natus amet fugit id sed non, debitis, saepe laborum inventore?</p>
+                    </div>
+                    <img class="event__image" src="./imagens/d.png" alt="bandeira">
+                </div>
+        </section>
+
+        <section class="event event--objetivo event--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">
+                        Objetivo
+                    </h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi soluta beatae error adipisci tempora autem tenetur, esse pariatur sapiente, eius tempore impedit cum. Veniam distinctio consequatur, dignissimos voluptatem maxime molestias!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint aliquid accusamus iste, quia quae praesentium facilis consequatur mollitia suscipit amet totam minima delectus, quo aut molestias blanditiis, temporibus nihil cum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolore veritatis aut illo architecto aliquid ab error ipsam sapiente vitae natus amet fugit id sed non, debitis, saepe laborum inventore?</p>
+                </div>
+                <img class="event__image" src="./imagens/c.png" alt="bandeira">
+            </div>
+
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script src="scripts/main.js"></script>
     </body>
     </html>
